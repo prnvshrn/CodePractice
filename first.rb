@@ -4,7 +4,7 @@ refresher course
 =end
 
 puts "First Ruby program"
-
+require './trig'
 class Sample
     @@out = "Pranav"
     def say
@@ -26,3 +26,9 @@ end
 obj = Sample.new
 obj.say()
 obj.iterate(100)
+Trig.show
+myStr = String.new("THIS IS TEST")
+foo = myStr.downcase
+puts "#{foo}"
+arr = Array[0,1,2]
+puts arr.include?(2)
